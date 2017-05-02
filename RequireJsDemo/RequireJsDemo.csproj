@@ -66,6 +66,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="index.html" />
+    <Content Include="js\app.js" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
@@ -82,6 +83,8 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Scripts\jquery.loadingoverlay\loadingoverlay.min.js" />
+    <Content Include="Scripts\jquery.loadingoverlay\loadingoverlay_progress.min.js" />
     <Content Include="Scripts\r.js" />
     <Content Include="Scripts\require.js" />
     <Content Include="Web.config" />
