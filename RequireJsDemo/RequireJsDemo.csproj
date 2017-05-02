@@ -67,6 +67,8 @@
   <ItemGroup>
     <Content Include="index.html" />
     <Content Include="js\app.js" />
+    <Content Include="config.js" />
+    <Content Include="js\listCreator.js" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.1.1.js" />
@@ -75,6 +77,11 @@
     <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
     <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.1.1.min.map" />
+    <Content Include="Scripts\jquery.loadingoverlay\loadingoverlay.min.js" />
+    <Content Include="Scripts\jquery.loadingoverlay\loadingoverlay_progress.min.js" />
+    <Content Include="Scripts\underscore.js" />
+    <Content Include="Scripts\underscore.min.js" />
+    <Content Include="Scripts\underscore.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -83,8 +90,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Scripts\jquery.loadingoverlay\loadingoverlay.min.js" />
-    <Content Include="Scripts\jquery.loadingoverlay\loadingoverlay_progress.min.js" />
     <Content Include="Scripts\r.js" />
     <Content Include="Scripts\require.js" />
     <Content Include="Web.config" />
