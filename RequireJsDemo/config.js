@@ -20,6 +20,7 @@ require.config({
     }
 });
 
+// The parameter 'App' will get the App instance defined in 'js/app.js'
 require(['app'], function (App) {
     var app = new App();
     app.Run();

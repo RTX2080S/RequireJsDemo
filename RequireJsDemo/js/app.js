@@ -1,7 +1,10 @@
 ﻿
 /*
     Defined an app module that requires 'jquery', 'listCreator';
-    the ['jquery', 'listCreator'] means the app module is dependent on the 'jquery' and 'listCreator'
+    the ['jquery', 'listCreator'] means the app module is dependent on the 'jquery' and 'listCreator';
+    
+    The parameters in the function ($, listCreator) inside define() will load the $ and listCreator instances,
+    see 'js/listCreator.js' last lines --> return listCreator;
 */
 
 define(['jquery', 'listCreator', 'loadingoverlay'], function ($, listCreator) {
